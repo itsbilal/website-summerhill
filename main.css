@@ -1,30 +1,53 @@
 
-body {
-    border-top: 3px solid #007bff;
+body.custom-bg {
+    border-top: 2px solid #b9a58c;
     /* margin: 0; */
+    /* background-color: #f8f2e9; */
+    background-color: #fbf5ec;
+    /* background-color: #414141; */
+}
+
+body.custom-bg, section {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #777777
+}
+
+body.custom-bg a {
     color: #444444;
+    text-decoration: none;
+    border-bottom: 1px solid #cccccc;
 }
 
 body > .container {
     margin-top: 70px;
 }
 
-section {
-    color: #444444;
-}
-
 section.top-section {
     padding-top: 20px;
 }
 
-section main {
+section.section-text {
     padding-bottom: 40px;
+}
+
+section.subtitle-section {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b9a58c;
+}
+
+section.main-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .name-section h3 {
     font-size: 36pt;
     font-weight: 400;
     color: #444444;
+}
+
+section h4 {
+    font-weight: 300;
 }
 
 .ttc-point {
